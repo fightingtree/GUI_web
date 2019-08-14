@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.blog-top-grids:nth-child(3) {
+padding: 25px 0px;
+}
+.left-side-agile h4 {
+font-size: 28px;
+letter-spacing: 1px;
+line-height: 44px;
+color: #e91e63;
+font-family: 'Berkshire Swash', cursive;
+}
+p.groom-right {
+font-size: 14px;
+letter-spacing: 2px;
+color: #000;
+line-height: 30px;
+padding: 25px 0px;
+}
+.blog-w3l-bottom img,.blog-w3l-left img, 
+.blog-w3l-right img {
+-webkit-box-shadow:2px 6px 17px -4px rgb(0, 0, 0);
+-moz-box-shadow:2px 6px 17px -4px rgb(0, 0, 0);
+box-shadow:2px 6px 17px -4px rgb(0, 0, 0);
+}
+/*--// blog--*/

@@ -1,0 +1,334 @@
+
+/*-- /bannerzi --*/
+
+.bannerzi-form {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+
+
+.rslides {
+	margin: 0 auto;
+}
+
+.rslides_containerzi {
+	position: relative;
+	width: 100%;
+}
+
+.centered-btns_nav {
+	z-index: 3;
+	position: absolute;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	top: 68%;
+	left: 0;
+	opacity: 0.7;
+	text-indent: -9999px;
+	overflow: hidden;
+	text-decoration: none;
+	height: 61px;
+	width: 38px;
+	background: transparent url(../images/arrows.png) no-repeat left 50%;
+	margin-top: -45px;
+}
+
+.centered-btns_nav:active {
+	opacity: 1.0;
+}
+
+.centered-btns_nav.next {
+	left: auto;
+	background-position: right top;
+	right: 0;
+}
+
+.transparent-btns_nav {
+	z-index: 3;
+	position: absolute;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	top: 0;
+	left: 0;
+	display: block;
+	background: #fff;
+	/* Fix for IE6-9 */
+	opacity: 0;
+	filter: alpha(opacity=1);
+	width: 48%;
+	text-indent: -9999px;
+	overflow: hidden;
+	height: 91%;
+}
+
+.transparent-btns_nav.next {
+	left: auto;
+	right: 0;
+}
+
+.large-btns_nav {
+	z-index: 3;
+	position: absolute;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	opacity: 0.6;
+	text-indent: -9999px;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: url(../images/arrows.png) no-repeat left 50%;
+	width: 38px;
+}
+
+.large-btns_nav:active {
+	opacity: 1.0;
+}
+
+.large-btns_nav.next {
+	left: auto;
+	background-position: right 50%;
+	right: 0;
+}
+
+.centered-btns_nav:focus,
+.transparent-btns_nav:focus,
+.large-btns_nav:focus {
+	outline: none;
+}
+
+.centered-btns_tabs,
+.transparent-btns_tabs,
+.large-btns_tabs {
+	text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: 9%;
+	z-index: 9;
+}
+
+.centered-btns_tabs li,
+.transparent-btns_tabs li,
+.large-btns_tabs li {
+	display: inline;
+	float: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.centered-btns_tabs a,
+.transparent-btns_tabs a,
+.large-btns_tabs a {
+	text-indent: -9999px;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+	_display: block;
+	width: 12px;
+	height: 12px;
+}
+
+.centered-btns_here a,
+.transparent-btns_here a,
+.large-btns_here a {
+	background: rgb(255, 193, 7);
+}
+
+.bannerzi {
+	background: url(../img/bannerzi2.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 800px;
+	position: relative;
+}
+
+.bannerzi-info {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 9em;
+	position: relative;
+}
+
+.bannerzi-info h3 {
+	font-size: 7em;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+
+.bannerzi-info h4 {
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	font-size: 2em;
+	font-weight: 100;
+	margin-bottom: 1em;
+	color: #fff;
+}
+
+.bannerzi-info h5 {
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+.brown {
+	margin: 0;
+	font-size: 0.9em;
+	color: #8c9398;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+
+.bnr-button {
+	margin-top: 2em;
+}
+
+/* Global Button Styles */
+
+
+/*--//bannerzi --*/
+
+/*--/content --*/
+
+.product {
+	background: url(../img/bannerzi.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+
+.about-info {
+	padding: 0;
+}
+
+.about-img {
+	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 800px;
+}
+
+.ab-info-text {
+	padding: 5em;
+}
+
+.bannerzi-bottom {
+	padding: 6em 0;
+}
+
+.read.innerzi a {
+	color: #555;
+}
+
+.innerzi-sec {
+	margin-top: 3em;
+}
+
+h3.tittlezi,
+.feature h3 {
+	font-size: 2.5em;
+	color: #373b3e;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h3.tittlezi1,
+.feature h3{
+	font-size: 2.5em;
+	color: #e91e63;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h4.sub-hd {
+	font-size: 1.3em;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	letter-spacing: 3px;
+	color: #353535;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h3.tittlezi.cen {
+	color: #fff;
+}
+
+.bannerzi-bottom.services {
+	background: #EB2941;
+}
+
+
+/*--about--*/
+
+.wrapper-innerzi {
+	padding-top: 9em;
+}
+
+.bannerzi-innerzi {
+	background: url(../images/bannerzi1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 330px;
+}
+
+li.breadcrumb-item {
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+li.breadcrumb-item a {
+	color: #333;
+}
+
+.breadcrumb-item.active {
+	color: #0062cc;
+}
+
+/*--//about--*/
+
+/*--gallery--*/
+
+
+/*-- Contact --*/
+
+
